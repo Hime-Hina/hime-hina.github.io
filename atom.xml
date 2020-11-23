@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HH的奇妙空间</title>
+  
+  
+  <link href="https://blog.himehina.space/atom.xml" rel="self"/>
+  
+  <link href="https://blog.himehina.space/"/>
+  <updated>2020-11-23T07:07:48.122Z</updated>
+  <id>https://blog.himehina.space/</id>
+  
+  <author>
+    <name>HimeHina</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于本站的诞生</title>
+    <link href="https://blog.himehina.space/2020/11/22/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/"/>
+    <id>https://blog.himehina.space/2020/11/22/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/</id>
+    <published>2020-11-22T14:02:54.000Z</published>
+    <updated>2020-11-23T07:07:48.122Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="创-站-记">创 站 记</h2><p>起初, 神创造天地.</p><p>地是空虚混沌. 渊面黑暗. 神的灵运行在水面上.</p><p>神说, 要有光, 于是有了本站.(?)</p><h2 id="缘由">缘由</h2><p> 每次遇到问题都得上<em>Bing</em>或<em>Google</em>找解决方案, 之后再遇到忘记了又得重新找, 很浪费时间. 其次, 我想整个学习计算机相关知识的笔记, 最好能方便查找. 那就干脆整个博客来记录好了. 感觉写博客对学习到的知识应该会有更好的理解, 因为这得向别人讲明白这是什么那是什么. 同时, 还能分享交流. 当然, 前提是有人看......</p><h2 id="框架的选择">框架的选择</h2><p> 这里选择用 <em><a href="https://hexo.io/">Hexo 5.2.0</a></em> 来作为博客的框架. 主要是方便, 还不用买服务器, 只要买个域名, 再部署到<em>Github Pages</em>或腾讯的<em>Coding</em>, 一个看起来还不错的博客就建好了. 虽然<em>Hexo</em>只是一个静态博客框架, 效果功能可能没那些动态网页好, 但对我来说足够了.</p><h2 id="搭建过程">搭建过程</h2><ol type="1"><li><h4 id="环境准备">环境准备</h4><p> 首先得安装这两个程序:</p><ul><li><em><a href="https://nodejs.org">Node.js</a></em></li><li><em><a href="https://git-scm.com/">Git</a></em></li></ul><p> 输入这两条命令, 查看安装版本. 验证是否安装成功.</p><p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></p><p> 然后在命令行里安装<em>Hexo</em>.</p><pre><code> $ npm install -g hexo-cli</code></pre><p> 初始化<em>Hexo</em>, 这里将在<code>HH_blog</code>文件夹里存放hexo相关的文件夹.</p><pre><code> $ hexo init HH_Blog </code></pre><p> 进入文件夹<code>HH_Blog</code>, 并安装相关依赖.</p><pre><code> $ cd HH_Blog $ npm install</code></pre><p> 至此, 基本的安装就完成了. 输入以下命令把博客部署在本地. 用浏览器访问<a href="http://localhost:4000" class="uri">http://localhost:4000</a>, 就能看到博客主页了, 稍后会提到如何部署在云端.</p><pre><code> $ hexo generate $ hexo server</code></pre></li><li><h4 id="部署到github-pages和coding">部署到<em>Github Pages</em>和<em>Coding</em></h4><p> 为了博客能被别人看到, 我们可以选择部署到<em>Github Pages</em>和<em>Coding</em>. 它们都可以免费部署静态网站, 如果没有太高的要求, 完全是够用的. <em>Github Pages</em>是在中国境外的, 可能访问会很慢, 但它是完全免费的, 可以长期部署. <em>Coding</em>是腾讯旗下的类似<em>Github</em>的代码托管平台. 用它部署的静态网站在国内访问速度要更快, 但是好像免费期只有6个月, 过期后得续费. 对于我来说, 我全都要.</p><hr /><p> 这里假定你已经注册好了<em>GitHub</em>账号. 然后创建新仓库, 如下图. <img src="https://image-host-1257208881.file.myqcloud.com/Github%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" /> 由于我已经建好了仓库, 这里显示仓库已存在. 注意, 仓库名应该是<code>你的用户名.github.io</code></p><p> 对于<em>Coding</em>是类似的操作. 浏览器打开<a href="https://coding.net" class="uri">https://coding.net</a>, 注册好后登录. 在<strong><code>项目</code></strong>栏下新建项目. 第一次创建会强制让你建立引导项目, 创建完删了再新建一个就是.</p></li></ol>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试!!!</title>
+    <link href="https://blog.himehina.space/2020/11/20/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://blog.himehina.space/2020/11/20/%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-11-20T15:42:24.000Z</published>
+    <updated>2020-11-23T07:14:58.178Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="巨大标题">巨大标题</h1><h2 id="大标题">大标题</h2><h2 id="你好">你好!</h2><p>这是测试文章.</p><blockquote><p>我大意了啊, 没有闪. ---- 混元形意太极门掌门人 🐎🎳🍎</p></blockquote><h2 id="老三样">老三样</h2><ul><li>左正蹬</li><li>右鞭腿</li><li>左刺拳</li></ul><h2 id="名-人-名-言">名 人 名 言</h2><ul><li><p>欸, 朋友们好. 我是混元形意太极门掌门人, 🐎🎳🍎.</p></li><li><p>刚才有个朋友问我, "马老师发生甚么事了". 我说: "怎么回事?" 给我发了几张截图. 我一看. 嗷! 源赖氏佐田, 有两个黏青人, 30多岁, 一个体重90多公斤, 一个体重80多公斤.</p></li><li><p>塔门说, 诶......有一个说是我在健身房练功, 颈椎练坏了, 马老师你能不能教教我混元功法? 诶......帮助治疗一下, 我的颈椎病.</p></li></ul><h2 id="整点代码">整点代码!</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line">l = [x * x <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">101</span>)]</span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> l:</span><br><span class="line">  <span class="built_in">sum</span> += x;</span><br><span class="line"></span><br><span class="line">print(<span class="built_in">sum</span>)</span><br></pre></td></tr></table></figure><h2 id="测试mathjax渲染latex">测试<span class="math inline">\(MathJax\)</span>渲染<span class="math inline">\(\LaTeX\)</span></h2><p><span class="math display">\[\begin{align*}  \int 🐎\, d🐎 &amp;= \frac{1}{2}🐎^2 + C \\  \int\frac{1}{🎳}\, d🎳 &amp;=\ln\left| 🎳 \right| + C \\  \frac{\mathrm{d} \sin\left(🍎\right)}{\mathrm{d} 🍎} &amp;= \cos(🍎)\end{align*}\]</span></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
