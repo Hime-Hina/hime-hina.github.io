@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.himehina.space","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"blog.himehina.space","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"style":null,"show_result":false},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":12},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="这里会记录我学习算法和数据结构的笔记, 还有一些OJ题解, 也会记录我感兴趣的东西.">
@@ -43,7 +43,7 @@
     lang   : 'zh-CN'
   };
 </script>
-
+<script type = "text/javascript" src = "/js/iconfont.js"></script>
   <title>HH的奇妙空间</title>
   
 
@@ -134,7 +134,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">2</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
 
   </li>
         <li class="menu-item menu-item-schedule">
@@ -156,6 +156,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -169,251 +170,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.himehina.space/uncategorized/80751380dcf5.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="HimeHina">
-      <meta itemprop="description" content="这里会记录我学习算法和数据结构的笔记, 还有一些OJ题解, 也会记录我感兴趣的东西.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HH的奇妙空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/uncategorized/80751380dcf5.html" class="post-title-link" itemprop="url">关于本站的诞生</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-11-22 22:02:54" itemprop="dateCreated datePublished" datetime="2020-11-22T22:02:54+08:00">2020-11-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-25 00:27:35" itemprop="dateModified" datetime="2020-11-25T00:27:35+08:00">2020-11-25</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="创-站-记">创 站 记</h2>
-<p> 起初, 神创造天地.</p>
-<p> 地是空虚混沌. 渊面黑暗. 神的灵运行在水面上.</p>
-<p> 神说, 要有光, 于是有了本站.(?)</p>
-<h2 id="缘由">缘由</h2>
-<p> 每次遇到问题都得上<em>Bing</em>或<em>Google</em>找解决方案, 之后再遇到忘记了又得重新找, 很浪费时间. 其次, 我想整个学习计算机相关知识的笔记, 最好能方便查找. 那就干脆整个博客来记录好了. 感觉写博客对学习到的知识应该会有更好的理解, 因为这得向别人讲明白这是什么那是什么. 同时, 还能分享交流. 当然, 前提是有人看......</p>
-<h2 id="框架的选择">框架的选择</h2>
-<p> 这里选择用 <em><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo 5.2.0</a></em> 来作为博客的框架. 主要是方便, 还不用买服务器, 只要买个域名, 再部署到<em>GitHub Pages</em>或腾讯的<em>Coding</em>, 一个看起来还不错的博客就建好了. 虽然<em>Hexo</em>只是一个静态博客框架, 效果功能可能没那些动态网页好, 但对我来说足够了.</p>
-<h2 id="搭建过程">搭建过程</h2>
-<ol type="1">
-<li><h3 id="环境准备">环境准备</h3>
-<p> 首先得安装这两个程序:</p>
-<ul>
-<li><em><a target="_blank" rel="noopener" href="https://nodejs.org">Node.js</a></em></li>
-<li><em><a target="_blank" rel="noopener" href="https://git-scm.com/">Git</a></em></li>
-</ul>
-<p> 在命令行里输入命令, 查看安装版本. 验证是否安装成功.</p>
-<pre><code> git --version
- node -v
- npm -v</code></pre>
-<p> 我们可以更换npm的源到国内, 加快安装. 这里使用淘宝镜像.</p>
-<pre><code> npm config set https://registry.npm.taobao.org</code></pre>
-<p> 然后在命令行里安装<em>Hexo</em>.</p>
-<pre><code> npm install -g hexo-cli</code></pre>
-<p> 初始化<em>Hexo</em>, 这里将在<code>HH_blog</code>文件夹里存放hexo相关的文件夹.</p>
-<pre><code> hexo init HH_Blog </code></pre>
-<p> 进入文件夹<code>HH_Blog</code>, 并安装相关依赖.</p>
-<pre><code> cd HH_Blog
- npm install</code></pre>
-<p> 至此, 基本的安装就完成了. 输入以下命令把博客部署在本地. 用浏览器访问<a target="_blank" rel="noopener" href="http://127.0.0.1:4000" class="uri">http://127.0.0.1:4000</a>, 就能看到博客主页了, 稍后会提到如何部署在云端.</p>
-<pre><code> hexo generate
- hexo server</code></pre>
-<p><strong>注:</strong> <code>hexo generate</code>可以简写为<code>hexo g</code>. 只要不引起歧义, 就只需要输入部分字符. 其他命令使用方法通过<code>hexo help</code>查看.</p></li>
-<li><h4 id="在github和coding上创建仓库">在<em>GitHub</em>和<em>Coding</em>上创建仓库</h4>
-<p> 为了博客能被别人看到, 我们可以选择部署到<em>GitHub Pages</em>和<em>Coding</em>. 它们都可以免费部署静态网站, 如果没有太高的要求, 完全是够用的. <em>GitHub</em>是在中国境外的, 可能访问会很慢, 但它是完全免费的, 可以长期部署. <em>Coding</em>是腾讯旗下的类似<em>GitHub</em>的代码托管平台. 用它部署的静态网站在国内访问速度要更快, 但是好像免费期只有6个月, 过期后得续费.</p>
-<p> 在这里, 我选择双线部署, <em>GitHub</em>用于境外访问, 而<em>Coding</em>用于境内.</p>
-<hr />
-<p> 这里假定你已经注册好了<em>GitHub</em>账号. 然后创建新仓库, 如下图. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/Github%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="Github创建仓库" />  由于我已经建好了仓库, 这里显示仓库已存在. 注意, 仓库名应该是<code>你的用户名.github.io</code></p>
-<p> 对于<em>Coding</em>是类似的操作. 浏览器打开<a target="_blank" rel="noopener" href="https://coding.net" class="uri">https://coding.net</a>, 注册好后登录. 在<strong><code>项目</code></strong>栏下新建项目. 第一次创建会强制让你建立引导项目, 创建完删了再新建一个就是.</p>
-<p> 如图, <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE.png" alt="Coding创建项目" /></p>
-<p> 选择第一个模板. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E9%80%89%E6%8B%A9%E9%A1%B9%E7%9B%AE%E6%A8%A1%E6%9D%BF.png" alt="Coding选择项目模板" /></p>
-<p> 随便填. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E5%A1%AB%E5%86%99%E9%A1%B9%E7%9B%AE%E4%BF%A1%E6%81%AF.png" alt="Coding填写项目信息" /></p>
-<p> 随后进入代码仓库, 创建新的Git代码仓库. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E6%96%B0%E5%BB%BA%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93.png" alt="Coding新建代码仓库" /></p>
-<p> 选择Git仓库, 可以把代码扫描关了, 好像要人民币. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E4%BF%A1%E6%81%AF.png" alt="Coding代码仓库信息" /></p>
-<p> 仓库建完了. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E4%BB%A3%E7%A0%81%E6%B5%8F%E8%A7%88.png" alt="Coding代码仓库代码浏览" /></p></li>
-<li><h4 id="添加ssh-key">添加<em>SSH Key</em></h4>
-<p> 在<em>GitHub</em>和<em>Coding</em>上添加<em>SSH Key</em>能方便我们把本地博客上传到云端.</p>
-<p> 首先要在本地生成<em>SSH Key</em>. 在命令行内输入:</p>
-<pre><code> git config --global user.name &quot;GitHub用户名&quot;
- $ git config --global user.email &quot;GitHub注册邮箱&quot;
- $ ssh-keygen -t rsa -C &quot;GitHub注册邮箱&quot;</code></pre>
-<p> 然后一路回车就行, 保持默认. 然后在用户目录下的<code>.ssh/</code>目录下生成了两个文件: <code>id_rsa</code>和<code>id_rsa.pub</code>. 我们只需要<code>id_rsa.pub</code>文件的内容.</p>
-<p> 进入<em>GitHub</em>的<em>Settings</em>界面. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Github%E9%85%8D%E7%BD%AESSH.png" alt="Github配置SSH" /></p>
-<p> 添加<em>SSH Key</em> <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Github%E6%B7%BB%E5%8A%A0SSH_Key.png" alt="Github添加SSH_Key" /></p>
-<p> 标题随便填, 在<em>Key</em>栏填入<code>id_rsa.pub</code>文件内的东西. 然后就添加成功了. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Github%E6%B7%BB%E5%8A%A0SSH_Key%E6%95%88%E6%9E%9C.png" alt="Github添加SSH_Key效果" /></p>
-<p> 对于<em>Coding</em>的设置, 只需在个人设置的<code>SSH公钥</code>里添加<code>id_rsa.pub</code>的内容即可. <img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E6%B7%BB%E5%8A%A0SSH_Key.png" alt="Coding添加SSH_Key" /></p>
-<p> 让我们测试一下, 是否可用.</p>
-<pre><code> $ ssh -T git@github.com
-   Hi Hime-Hina! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
- $ ssh -T git@e.coding.net
-   CODING 提示: Hello Hime-Hina, You&#39;ve connected to coding.net via SSH. This is a Personal Key.
-   Hime-Hina，你好，你已经通过 SSH 协议认证 coding.net 服务，这是一个个人公钥.
-   公钥指纹：49:9f:93:3c:68:48:92:29:9b:72:17:32:78:f9:ef:cc</code></pre>
-<p> 成功的话, 应该输出上面的提示.</p></li>
-<li><h4 id="上传博客">上传博客</h4>
-<p> 打开本地<em>Hexo</em>配置文件<code>_config.yml</code>, 也就是根目录下的那个. 将文件最后的<code>deploy:</code>的部分修改为:</p>
-<pre><code> deploy:
-   type: &#39;git&#39;
-   repository: 
-     coding: &#39;git@e.coding.net:hime-hina/hime-hina/HH_Blog.git&#39;
-     github: &#39;git@github.com:Hime-Hina/hime-hina.github.io.git&#39;
-   branch: &#39;master&#39;</code></pre>
-<p><strong>注意</strong>:</p>
-<ul>
-<li>冒号<code>:</code>后应该有一个空格分隔键值.</li>
-<li><code>coding:</code>和<code>github:</code>后面应该是仓库的<em>SSH</em>地址, 可以在仓库页面的克隆(<em>Clone</em>)处找到.</li>
-<li>现在, 在<em>GitHub</em>新建仓库的默认分支(<em>Branch</em>)名已经改为<code>main</code>. 由于还不知道如何分别到推送到两个不同平台的不同分支, 这里先统一分支名为<code>master</code>. 可以在推送之后手动把<code>master</code>设为默认, 然后删除<code>main</code>分支.</li>
-</ul>
-<p> </p>
-<p> 为了<em>Hexo</em>能够用<em>Git</em>推送到仓库, 我们还要安装插件.</p>
-<pre><code> npm install hexo-deployer-git --save</code></pre>
-<p> 先用命令<code>hexo generate</code>来构建静态网站, 然后用命令<code>hexo deploy</code>来将博客上传到远程仓库.</p></li>
-<li><h4 id="部署博客for-coding">部署博客(<em>For CODING</em>)</h4>
-<p> 上传完博客, <em>GitHub Pages</em>应该已经能够访问了, 访问<code>[你的GitHub用户名].github.io</code>即可. 上传到仓库后, 对于<em>Coding</em>还需要一个步骤. 进入项目, 进入<code>持续部署</code>--&gt;<code>静态网站</code>.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2.png" alt="" /><figcaption>Coding静态网站部署</figcaption>
-</figure>
-<p> 需要实名认证, 然后新建静态网站.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E6%96%B0%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99.png" alt="" /><figcaption>Coding新建静态网站</figcaption>
-</figure>
-<p> 网站名称随意, 网站类型选静态网站, 其他保持默认就好. 之后要配置自定义域名, 若节点选择在境内是需要备案的. 这里为了方便, 先使用香港节点, 不用备案.  等待网站自动部署好后, 可以通过自动分配的域名访问, 接下来介绍如何配置自定义域名.</p></li>
-<li><h4 id="配置自定义域名">配置自定义域名</h4>
-<p> 首先得拥有一个域名, 可以到<a target="_blank" rel="noopener" href="https://www.aliyun.com/">阿里云</a>或<a target="_blank" rel="noopener" href="https://cloud.tencent.com/">腾讯云</a>上购买, 通常是很便宜的, 200元人民币不到就可以买到一个10年拥有权的域名.</p>
-<p> 先配置<em>Coding</em>的, 进入<code>项目</code>--&gt;<code>持续部署</code>--&gt;<code>静态网站</code>, 选择自定义域名.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E8%BF%9B%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E9%A1%B5%E9%9D%A2.png" alt="" /><figcaption>Coding进入自定义域名页面</figcaption>
-</figure>
-<p> 新建域名, 输入你自己购买的. 前缀是随意的, 它是主机记录, 之后在域名控制台解析的时候保持一致就行.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Coding%E6%96%B0%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D.png" alt="" /><figcaption>Coding新建自定义域名</figcaption>
-</figure>
-<p> 这里为了其他人用浏览器访问时不会报安全问题, 可以申请SSL证书, 然后开启HTTPS. 具体流程在新建自定义域名时会有.</p>
-<p> 然后, 我们需要在控制台解析这个网址. 进入控制台, 添加记录.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Aliyun%E6%B7%BB%E5%8A%A0Coding%E8%AE%B0%E5%BD%95.png" alt="" /><figcaption>Aliyun添加Coding记录</figcaption>
-</figure>
-<p> 记录类型是CNAME, 表示该域名指向另一个域名. 主机记录与之前在<em>Coding</em>填的保持一致. 记录值填在<em>Coding</em>新建域名时分配给你的域名. 这个过程可以参考<em>Coding</em>的文档.</p>
-<p> 添加结果如下. 然后就能通过自己的域名访问了.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Aliyun%E6%B7%BB%E5%8A%A0Coding%E5%9F%9F%E5%90%8D%E7%BB%93%E6%9E%9C.png" alt="" /><figcaption>Aliyun添加Coding域名结果</figcaption>
-</figure>
-<p> <em>GitHub</em>的设置比较简单. 进入仓库的<em>Settings</em>.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/GitHub%E8%BF%9B%E5%85%A5Settings.png" alt="" /><figcaption>GitHub进入Settings</figcaption>
-</figure>
-<p> 找到<em>GitHub Pages</em>一栏. 把<em>Custom Domain</em>改为自己的域名, 同样可以选择强制开启HTTPS.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/GitHub%E8%AE%BE%E7%BD%AECustom_Domain.png" alt="" /><figcaption>GitHub设置Custom_Domain</figcaption>
-</figure>
-<p> 然后在命令行内博客根目录的<code>source</code>文件夹, 新建文件<code>CNAME</code>, 添加内容为之前<em>Custom Domain</em>填写的域名.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/GitHub%E4%BF%AE%E6%94%B9CNAME.png" alt="" /><figcaption>GitHub修改CNAME</figcaption>
-</figure>
-<p> 重新把博客上传.</p>
-<pre><code> hexo clean
- hexo g
- hexo d</code></pre>
-<p> 在域名控制台添加解析记录是与之前一样的, 记录值是<code>[你的GitHub用户名].github.io</code>. 效果如下.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/Aliyun%E6%B7%BB%E5%8A%A0Github%E8%A7%A3%E6%9E%90.png" alt="" /><figcaption>Aliyun添加Github解析</figcaption>
-</figure>
-<p> 在这里, 我把<em>GitHub Pages</em>解析线路设置为境外, 这样在国外访问的就是<em>GitHub</em>端的, 国内访问的是<em>Coding</em>端的.</p>
-<p> 至此, 应该能用自己的域名来访问博客了.</p></li>
-<li><h4 id="发布新文章">发布新文章</h4>
-<p> <em>Hexo</em>默认是用<em>Markdown</em>来解析文章. 可以安装插件来支持其他的语言. 可以看看<a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown语法教程</a>来快速入门.</p>
-<p> 输入<code>hexo new post [文章标题]</code>来创建新的文章. 用命令<code>hexo s</code>来本地预览博客. 它会直接在主页显示.</p>
-<p> 命令<code>hexo new draft [草稿]</code>用来创建草稿, 它不会直接在主页显示. 如果草稿不再草了, 可以用<code>hexo publish [草稿]</code>来把草稿转为文章.</p></li>
-</ol>
-<h2 id="更进一步">更进一步</h2>
-<ol type="1">
-<li><h3 id="更换主题">更换主题</h3>
-<p> 默认的主题是<code>landscape</code>, 不是很好看, 我们可以把博客的主题更换. <a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">NexT</a> 是一个可以高度个性化的主题, 对新人来说配置也很方便.</p>
-<p> 先进入博客根目录. <em>Hexo</em>的版本在5.0以上, 可以直接用<code>npm</code>安装.</p>
-<pre><code> npm install hexo-theme-next</code></pre>
-<p> 也可以直接把仓库克隆到本地.</p>
-<pre><code> git clone https://github.com/next-theme/hexo-theme-next themes/next</code></pre>
-<p> 完事后, 编辑本地<code>_config.yml</code>文件. 找到<code>theme: landscape</code>部分, 改为<code>theme: next</code>. 这样主题就更换好了. 重新构建, 输入<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>, 可以看到更换后的结果.</p>
-<figure>
-<img src="https://image-host-1257208881.file.myqcloud.com/_posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E7%9A%84%E8%AF%9E%E7%94%9F/%E9%A6%96%E6%AC%A1%E6%9B%B4%E6%8D%A2NexT%E4%B8%BB%E9%A2%98.png" alt="" /><figcaption>首次更换NexT主题</figcaption>
-</figure></li>
-<li><h4 id="更改配置文件">更改配置文件</h4>
-<p> 我们可以尝试更改配置文件<code>_config.yml</code>来使博客更加个性化. 需要注意的是NexT主题有自己的<code>_config.yml</code>, 在<code>themes/next/</code>下, 与根目录的站点配置文件是不一样的, 需要区分. 实际上, 对于<em>Hexo</em> 5.0 以上的版本, 我们可以使用<code>_config.[theme].yml</code>来作为主题配置文件, 这样就可以在博客根目录下存放. 因此, 我们可以把<code>themes/next/_config.yml</code>复制到根目录下.</p>
-<pre><code> cp .\themes\next\_config.yml _config.next.yml</code></pre>
-<p> 这样, 我们就可以用根目录下的配置文件, 而不需要更改主题目录下的配置了, 方便了管理. 其实, 还可以把主题配置搬到站点配置文件里, 在站点配置文件里添加一个字典类型, 键是<code>theme_config</code>, 值是相应的配置. 但是我感觉把主题配置塞到站点配置有点臃肿, 就不采取这个方法了.</p>
-<p> 另外, <em>Hexo</em>在合并主题配置时, <code>theme_config</code>的优先级最高, 其次是<code>_config.[theme].yml</code>, 最后是主题目录下的<code>_config.yml</code>.</p>
-<p> 接下来, 更改站点配置文件<code>_config.yml</code>.</p>
-<pre><code> # Site
- title: &#39;网站名称&#39;
- subtitle: &#39;子名称/标题&#39;
- description: &#39;网站描述&#39;
- keywords: &#39;网站的关键词&#39;
- author: &#39;文章的默认作者&#39;
- language: &#39;zh-CN&#39;
- timezone: &#39;时区&#39;</code></pre>
-<p> <code>description</code>主要用于告诉搜索引擎这个站点的描述, NexT主题也可以显示. <code>keywords</code>网站的关键词, 建议在<code>description</code>里包含它. <code>language</code>网站使用的语言, 在所使用的主题的根目录的<code>languages</code>文件夹下可以找到支持的语言文件, 这里要对应起来. <code>timezone</code>是时区, 中国大陆地区用<code>Asia/Shanghai</code>.</p>
-<pre><code> # URL
- ## If your site is put in a subdirectory, set url as &#39;http://example.com/child&#39; and root as &#39;/child/&#39;
- url: https://domain.com
- root: /
- permalink: :category/:hash.html
- permalink_defaults:
- pretty_urls:
-   trailing_index: true # Set to false to remove trailing &#39;index.html&#39; from permalinks
-   trailing_html: true # Set to false to remove trailing &#39;.html&#39; from permalinks</code></pre>
-<p> <code>url</code>一般填自己网站的链接, 必须以<code>https://</code>或<code>http://</code>开头.<code>root</code>是网站的根目录. 如果网站的存放在子目录, 如<code>http://domain.com/blog</code>, 应该将<code>url</code>设置为<code>http://domain.com/blog</code>, 并且<code>root</code>设置为<code>/blog/</code>. <code>permalink</code>永久链接的格式, 该例子生成的永久链接是<code>https://domain.com/[文章的分类]/[文章标题的SHA1值和日期的16进制值].html</code> 关于其他变量设置, 参考<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">永久链接</a>.</p></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://blog.himehina.space/uncategorized/5a657cb01b65.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/HIMEHINA.jpg">
       <meta itemprop="name" content="HimeHina">
       <meta itemprop="description" content="这里会记录我学习算法和数据结构的笔记, 还有一些OJ题解, 也会记录我感兴趣的东西.">
     </span>
@@ -441,10 +201,24 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-24 21:50:04" itemprop="dateModified" datetime="2020-11-24T21:50:04+08:00">2020-11-24</time>
+                <time title="修改时间：2020-11-30 02:04:30" itemprop="dateModified" datetime="2020-11-30T02:04:30+08:00">2020-11-30</time>
               </span>
 
-          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>671</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
 
         </div>
       </header>
@@ -483,6 +257,63 @@
   \frac{\mathrm{d} \sin\left(🍎\right)}{\mathrm{d} 🍎} &amp;= \cos(🍎)
 \end{align*}
 \]</span></p>
+<h2 id="测试font-awesome">测试<em>Font Awesome</em></h2>
+<svg class="icon faa-spin animated" aria-hidden="true"><use xlink:href="#icon-qq"></use></svg>
+<svg class="icon faa-bounce animated" aria-hidden="true"><use xlink:href="#icon-bilibili"></use></svg>
+<h2 id="测试note">测试<em>Note</em></h2>
+<div class="note default">
+            <p>this is a note.</p>
+          </div>
+<div class="note success">
+            <p>you succeed in finding me.</p>
+          </div>
+<h2 id="测试tabs和label">测试<em>Tabs</em>和<em>Label</em></h2>
+<span class="label success">Successful Label</span>
+<div class="tabs" id="fucking-tabs"><ul class="nav-tabs"><li class="tab active"><a href="#fucking-tabs-1">Fucking Tabs 1</a></li><li class="tab"><a href="#fucking-tabs-2">Fucking Tabs 2</a></li></ul><div class="tab-content"><div class="tab-pane active" id="fucking-tabs-1"><p>Awwwww.</p>
+<div id="sub-tabs" class="tabs">
+<ul class="nav-tabs">
+<li class="tab active">
+<a href="#sub-tabs-1">Sub Tabs 1</a>
+</li>
+<li class="tab">
+<a href="#sub-tabs-2">Sub Tabs 2</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="sub-tabs-1" class="tab-pane active">
+<p>
+Awww.
+</p>
+<div id="sub-sub-tabs" class="tabs">
+<ul class="nav-tabs">
+<li class="tab active">
+<a href="#sub-sub-tabs-1"><span class="label danger">fuckyou</span></a>
+</li>
+<li class="tab">
+<a href="#sub-sub-tabs-2">Sub Sub Tabs 2</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="sub-sub-tabs-1" class="tab-pane active">
+<p>
+Aw.
+</p>
+</div>
+<div id="sub-sub-tabs-2" class="tab-pane">
+<p>
+Ah.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="sub-tabs-2" class="tab-pane">
+<p>
+Ahhh.
+</p>
+</div>
+</div>
+</div></div><div class="tab-pane" id="fucking-tabs-2"><p>Ahhhhh.</p></div></div></div>
 
       
     </div>
@@ -556,6 +387,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="HimeHina"
+      src="/images/HIMEHINA.jpg">
   <p class="site-author-name" itemprop="name">HimeHina</p>
   <div class="site-description" itemprop="description">这里会记录我学习算法和数据结构的笔记, 还有一些OJ题解, 也会记录我感兴趣的东西.</div>
 </div>
@@ -564,7 +397,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -578,10 +411,10 @@
         <a href="mailto:1545340072@qq.com" title="E-Mail → mailto:1545340072@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://twitter.com/Joji6923_HH" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;Joji6923_HH" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=1545340072&site=qq&menu=yes" title="QQ → http:&#x2F;&#x2F;wpa.qq.com&#x2F;msgrd?v&#x3D;3&amp;uin&#x3D;1545340072&amp;site&#x3D;qq&amp;menu&#x3D;yes" rel="noopener" target="_blank"><i class="fab fa-qq fa-fw"></i>QQ</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://www.v2ex.com/?r=HimeHina" title="V2EX → https:&#x2F;&#x2F;www.v2ex.com&#x2F;?r&#x3D;HimeHina" rel="noopener" target="_blank"><i class=" fa-fw"></i>V2EX</a>
+        <a href="https://www.v2ex.com/?r=HimeHina" title="V2EX → https:&#x2F;&#x2F;www.v2ex.com&#x2F;?r&#x3D;HimeHina" rel="noopener" target="_blank"><i class="iconfont icon-vex fa-fw"></i>V2EX</a>
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
